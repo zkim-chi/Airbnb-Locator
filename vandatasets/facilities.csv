@@ -1,0 +1,945 @@
+ParkID,FacilityCount,FacilityType,FacilityURL
+1,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+1,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+2,1,Field Houses,
+2,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+2,2,Softball,
+2,3,Baseball Diamonds,
+2,1,Football Fields,
+2,1,Soccer Fields,
+2,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+2,1,Washrooms,
+3,1,Soccer Fields,
+3,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+3,1,Jogging Trails,
+4,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+5,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+6,2,Baseball Diamonds,
+6,1,Field Houses,
+6,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+6,2,Soccer Fields,
+6,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+6,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+6,1,Disc Golf Courses,
+6,1,Jogging Trails,
+6,1,Washrooms,
+6,1,Skateboard Parks,//vancouver.ca/parks-recreation-culture/skateboard-parks.aspx
+6,1,Washrooms,
+7,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+8,1,Baseball Diamonds,
+8,1,Cricket Pitches,
+8,1,Field Houses,
+8,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+8,2,Soccer Fields,
+8,2,Softball,
+8,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+8,1,Washrooms,
+8,1,Ultimate Fields,
+9,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+9,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+10,1,Field Houses,
+10,2,Field Hockey,
+10,3,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+10,1,Softball,
+10,1,Football Fields,
+10,1,Lighted Fields,
+10,2,Soccer Fields,
+10,2,Tennis Courts,
+10,1,Basketball Courts,
+10,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+10,1,Skateboard Parks,//vancouver.ca/parks-recreation-culture/skateboard-parks.aspx
+10,2,Ultimate Fields,
+10,1,Washrooms,
+11,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+12,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+13,1,Community Halls,
+13,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+14,1,Skateboard Parks,//vancouver.ca/parks-recreation-culture/skateboard-parks.aspx
+14,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+14,1,Basketball Courts,
+14,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+14,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+15,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+15,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+16,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+16,1,Soccer Fields,
+16,2,Basketball Courts,
+16,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+16,2,Tennis Courts,
+16,1,Washrooms,
+18,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+18,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+19,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+20,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+20,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+20,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+21,1,Water/Spray Parks,
+21,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+21,1,Washrooms,
+21,1,Restaurants,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+23,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+24,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+25,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+26,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+27,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+28,1,Field Houses,
+28,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+28,1,Water/Spray Parks,
+28,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+28,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+28,1,Washrooms,
+29,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+29,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+30,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+31,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+32,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+34,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+34,1,Softball,
+34,1,Wading Pool,
+34,1,Lighted Fields,
+34,1,Rugby Fields,
+34,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+34,1,Running Tracks,
+34,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+34,1,Washrooms,
+34,1,Ultimate Fields,
+35,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+37,1,Field Houses,
+37,2,Soccer Fields,
+37,2,Baseball Diamonds,
+37,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+37,1,Water/Spray Parks,
+37,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+37,1,Washrooms,
+38,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+39,2,Baseball Diamonds,
+39,1,Bowling Greens,
+39,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+39,1,Field Houses,
+39,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+39,1,Soccer Fields,
+39,6,Tennis Courts,
+39,1,Basketball Courts,
+39,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+39,1,Washrooms,
+40,2,Soccer Fields,
+40,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+40,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+41,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+42,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+42,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+43,1,Soccer Fields,
+43,5,Tennis Courts,
+43,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+43,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+43,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+44,1,Field Houses,
+44,4,Tennis Courts,
+44,2,Bowling Greens,
+44,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+44,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+44,1,Washrooms,
+45,2,Tennis Courts,
+45,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+45,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+47,1,Basketball Courts,
+47,2,Tennis Courts,
+47,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+47,1,Ball Hockey,
+48,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+49,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+50,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+51,1,Field Houses,
+51,2,Tennis Courts,
+51,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+51,1,Basketball Courts,
+51,1,Water/Spray Parks,
+51,1,Ball Hockey,
+51,1,Soccer Fields,
+51,1,Washrooms,
+52,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+52,1,Field Houses,
+52,1,Water/Spray Parks,
+52,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+52,1,Washrooms,
+53,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+54,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+54,2,Tennis Courts,
+54,1,Soccer Fields,
+54,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+55,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+56,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+56,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+57,1,Field Houses,
+57,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+57,4,Tennis Courts,
+57,1,Water/Spray Parks,
+57,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+57,1,Washrooms,
+58,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+60,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+60,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+60,1,Soccer Fields,
+60,1,Softball,
+60,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+60,1,Running Tracks,
+61,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+62,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+62,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+62,1,Washrooms,
+63,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+63,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+64,2,Soccer Fields,
+64,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+64,1,Wading Pool,
+64,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+64,2,Softball,
+64,1,Washrooms,
+65,1,Field Houses,
+65,2,Football Fields,
+65,3,Soccer Fields,
+65,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+65,1,Washrooms,
+66,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+67,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+67,1,Field Houses,
+67,2,Tennis Courts,
+67,1,Wading Pool,
+67,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+67,1,Washrooms,
+68,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+68,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+69,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+70,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+70,3,Soccer Fields,
+70,1,Baseball Diamonds,
+70,1,Lighted Fields,
+70,1,Wading Pool,
+70,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+70,1,Washrooms,
+71,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+71,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+72,1,Skateboard Parks,//vancouver.ca/parks-recreation-culture/skateboard-parks.aspx
+72,1,Basketball Courts,
+72,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+72,1,Washrooms,
+73,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+73,1,Basketball Courts,
+73,1,Baseball Diamonds,
+73,1,Field Houses,
+73,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+73,2,Tennis Courts,
+73,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+73,1,Water/Spray Parks,
+73,1,Washrooms,
+74,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+74,2,Tennis Courts,
+74,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+75,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+75,1,Field Houses,
+75,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+75,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+75,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+75,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+75,1,Soccer Fields,
+75,1,Washrooms,
+75,1,Food Concessions,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+76,1,Field Houses,
+76,1,Football Fields,
+76,1,Golf Courses,//vancouver.ca/parks-recreation-culture/golf-courses-pitch-and-putts-and-driving-ranges.aspx
+76,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+76,4,Tennis Courts,
+76,1,Washrooms,
+76,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+76,1,Rugby Fields,
+76,1,Softball,
+76,1,Washrooms,
+76,1,Soccer Fields,
+77,1,Baseball Diamonds,
+77,1,Community Halls,
+77,1,Field Houses,
+77,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+77,1,Soccer Fields,
+77,1,Wading Pool,
+77,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+77,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+77,1,Washrooms,
+78,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+78,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+79,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+79,1,Field Houses,
+79,2,Tennis Courts,
+79,1,Basketball Courts,
+79,1,Wading Pool,
+79,1,Soccer Fields,
+79,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+79,1,Washrooms,
+79,1,Ball Hockey,
+80,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+80,2,Basketball Courts,
+80,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+80,1,Ball Hockey,
+81,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+81,1,Softball,
+81,1,Soccer Fields,
+81,4,Tennis Courts,
+81,1,Basketball Courts,
+81,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+81,1,Ball Hockey,
+82,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+82,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+82,1,Ultimate Fields,
+82,1,Ball Hockey,
+83,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+83,1,Basketball Courts,
+83,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+84,2,Bowling Greens,
+84,2,Tennis Courts,
+84,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+84,1,Basketball Courts,
+84,1,Wading Pool,
+84,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+84,1,Ball Hockey,
+84,1,Washrooms,
+85,2,Baseball Diamonds,
+85,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+85,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+85,2,Soccer Fields,
+85,3,Tennis Courts,
+85,1,Field Houses,
+85,1,Lighted Fields,
+85,1,Rinks,//vancouver.ca/parks-recreation-culture/ice-rinks.aspx
+85,2,Softball,
+85,1,Basketball Courts,
+85,1,Pickle Ball,
+85,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+85,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+85,1,Jogging Trails,
+85,1,Rugby Fields,
+85,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+85,1,Food Concessions,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+85,1,Washrooms,
+85,1,Ball Hockey,
+86,1,Field Houses,
+86,1,Soccer Fields,
+86,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+86,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+86,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+86,1,Washrooms,
+87,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+87,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+87,2,Soccer Fields,
+87,1,Community Halls,
+87,4,Softball,
+87,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+87,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+87,1,Skateboard Parks,//vancouver.ca/parks-recreation-culture/skateboard-parks.aspx
+88,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+88,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+88,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+88,1,Ultimate Fields,
+88,1,Basketball Courts,
+89,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+89,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+90,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+90,1,Soccer Fields,
+91,1,Baseball Diamonds,
+91,1,Field Houses,
+91,2,Tennis Courts,
+91,1,Bowling Greens,
+91,1,Soccer Fields,
+91,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+91,1,Washrooms,
+92,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+92,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+92,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+92,1,Washrooms,
+93,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+93,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+93,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+93,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+95,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+96,1,Field Houses,
+96,1,Soccer Fields,
+96,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+96,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+96,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+96,1,Wading Pool,
+96,1,Washrooms,
+97,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+98,1,Golf Courses,//vancouver.ca/parks-recreation-culture/golf-courses-pitch-and-putts-and-driving-ranges.aspx
+98,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+98,1,Restaurants,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+98,1,Washrooms,
+99,2,Tennis Courts,
+99,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+100,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+100,2,Softball,
+100,4,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+100,1,Soccer Fields,
+100,4,Tennis Courts,
+100,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+101,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+101,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+102,1,Golf Courses,//vancouver.ca/parks-recreation-culture/golf-courses-pitch-and-putts-and-driving-ranges.aspx
+102,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+102,1,Jogging Trails,
+102,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+102,1,Restaurants,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+102,1,Washrooms,
+103,3,Baseball Diamonds,
+103,1,Community Halls,
+103,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+103,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+103,2,Lighted Fields,
+103,1,Rinks,//vancouver.ca/parks-recreation-culture/ice-rinks.aspx
+103,3,Soccer Fields,
+103,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+103,1,Field Houses,
+103,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+103,1,Running Tracks,
+103,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+103,1,Wading Pool,
+103,1,Softball,
+103,1,Ultimate Fields,
+104,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+105,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+105,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+105,1,Soccer Fields,
+106,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+106,2,Tennis Courts,
+106,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+108,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+108,1,Field Houses,
+108,1,Lighted Fields,
+108,1,Rinks,//vancouver.ca/parks-recreation-culture/ice-rinks.aspx
+108,1,Soccer Fields,
+108,4,Softball,
+108,1,Cricket Pitches,
+108,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+108,2,Rugby Fields,
+108,1,Water/Spray Parks,
+108,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+109,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+109,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+110,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+110,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+110,1,Washrooms,
+111,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+112,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+112,1,Water/Spray Parks,
+112,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+112,10,Tennis Courts,
+112,2,Basketball Courts,
+112,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+112,1,Beaches,//vancouver.ca/parks-recreation-culture/beaches.aspx
+112,1,Washrooms,
+112,1,Restaurants,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+112,1,Washrooms,
+112,1,Food Concessions,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+113,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+114,1,Field Houses,
+114,1,Soccer Fields,
+114,4,Tennis Courts,
+114,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+114,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+114,2,Softball,
+114,1,Washrooms,
+115,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+116,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+117,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+118,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+119,1,Field Houses,
+119,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+119,3,Tennis Courts,
+119,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+119,1,Washrooms,
+120,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+120,1,Washrooms,
+121,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+122,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+122,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+123,4,Tennis Courts,
+123,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+124,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+124,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+126,2,Baseball Diamonds,
+126,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+126,1,Field Houses,
+126,1,Lighted Fields,
+126,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+126,3,Soccer Fields,
+126,2,Softball,
+126,2,Tennis Courts,
+126,1,Basketball Courts,
+126,1,Water/Spray Parks,
+126,1,Outdoor Roller Hockey Rinks,
+126,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+126,1,Washrooms,
+126,1,Ball Hockey,
+127,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+127,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+128,1,Field Houses,
+128,1,Soccer Fields,
+128,1,Softball,
+128,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+130,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+130,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+130,1,Basketball Courts,
+131,1,Field Houses,
+131,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+131,1,Softball,
+131,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+131,1,Football Fields,
+131,1,Rugby Fields,
+131,3,Ultimate Fields,
+131,1,Washrooms,
+133,1,Soccer Fields,
+133,1,Jogging Trails,
+133,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+133,2,Softball,
+133,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+134,1,Skateboard Parks,//vancouver.ca/parks-recreation-culture/skateboard-parks.aspx
+134,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+136,2,Tennis Courts,
+136,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+136,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+137,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+137,1,Softball,
+137,1,Field Houses,
+137,1,Soccer Fields,
+137,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+137,1,Washrooms,
+138,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+138,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+139,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+139,1,Basketball Courts,
+139,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+139,1,Skateboard Parks,//vancouver.ca/parks-recreation-culture/skateboard-parks.aspx
+140,1,Field Houses,
+140,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+140,1,Soccer Fields,
+140,3,Tennis Courts,
+140,2,Basketball Courts,
+140,1,Wading Pool,
+140,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+140,1,Washrooms,
+140,1,Ball Hockey,
+141,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+141,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+142,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+143,1,Field Houses,
+143,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+143,2,Softball,
+143,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+143,1,Wading Pool,
+143,2,Ultimate Fields,
+143,1,Washrooms,
+145,1,Golf Courses,//vancouver.ca/parks-recreation-culture/golf-courses-pitch-and-putts-and-driving-ranges.aspx
+145,4,Tennis Courts,
+145,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+145,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+145,1,Jogging Trails,
+145,1,Washrooms,
+145,1,Restaurants,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+146,1,Field Houses,
+146,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+146,3,Softball,
+146,2,Soccer Fields,
+146,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+146,1,Washrooms,
+147,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+147,1,Football Fields,
+147,1,Softball,
+147,2,Ultimate Fields,
+148,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+148,1,Softball,
+148,1,Field Houses,
+148,1,Lighted Fields,
+148,3,Soccer Fields,
+148,1,Baseball Diamonds,
+148,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+148,1,Washrooms,
+148,1,Field Hockey,
+149,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+149,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+150,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+150,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+151,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+151,1,Softball,
+151,1,Field Houses,
+151,1,Soccer Fields,
+151,1,Basketball Courts,
+151,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+151,1,Wading Pool,
+151,1,Washrooms,
+152,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+152,1,Softball,
+152,1,Soccer Fields,
+152,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+152,1,Jogging Trails,
+153,2,Baseball Diamonds,
+153,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+153,1,Community Halls,
+153,1,Football Fields,
+153,1,Field Houses,
+153,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+153,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+153,1,Wading Pool,
+153,1,Soccer Fields,
+153,1,Washrooms,
+154,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+154,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+155,1,Soccer Fields,
+155,1,Basketball Courts,
+155,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+155,1,Softball,
+156,2,Tennis Courts,
+156,1,Basketball Courts,
+156,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+157,1,Field Houses,
+157,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+157,1,Soccer Fields,
+157,2,Softball,
+157,1,Water/Spray Parks,
+157,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+157,1,Washrooms,
+158,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+158,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+159,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+159,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+159,1,Field Houses,
+159,1,Lacrosse Boxes,
+159,1,Lighted Fields,
+159,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+159,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+159,1,Softball,
+159,1,Football Fields,
+159,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+159,1,Wading Pool,
+159,1,Ball Hockey,
+159,1,Washrooms,
+160,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+161,1,Field Houses,
+161,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+161,1,Soccer Fields,
+161,4,Tennis Courts,
+161,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+161,1,Wading Pool,
+161,1,Washrooms,
+161,1,Ultimate Fields,
+162,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+162,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+163,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+164,1,Field Houses,
+164,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+164,3,Soccer Fields,
+164,4,Baseball Diamonds,
+164,1,Rinks,//vancouver.ca/parks-recreation-culture/ice-rinks.aspx
+164,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+164,1,Jogging Trails,
+164,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+165,1,Baseball Diamonds,
+165,1,Lighted Fields,
+165,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+165,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+166,1,Field Houses,
+166,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+166,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+166,1,Water/Spray Parks,
+166,1,Soccer Fields,
+166,1,Washrooms,
+167,1,Bowling Greens,
+167,1,Field Houses,
+167,1,Golf Courses,//vancouver.ca/parks-recreation-culture/golf-courses-pitch-and-putts-and-driving-ranges.aspx
+167,17,Tennis Courts,
+167,4,Basketball Courts,
+167,4,Pickle Ball,
+167,1,Disc Golf Courses,
+167,2,Outdoor Roller Hockey Rinks,
+167,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+167,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+167,2,Ball Hockey,
+167,1,Washrooms,
+167,1,Washrooms,
+167,1,Restaurants,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+167,1,Washrooms,
+168,1,Baseball Diamonds,
+168,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+168,1,Field Houses,
+168,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+168,1,Soccer Fields,
+168,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+168,1,Basketball Courts,
+169,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+170,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+171,2,Baseball Diamonds,
+171,1,Rinks,//vancouver.ca/parks-recreation-culture/ice-rinks.aspx
+171,2,Soccer Fields,
+171,1,Field Hockey,
+171,1,Rinks,//vancouver.ca/parks-recreation-culture/ice-rinks.aspx
+171,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+171,1,Running Tracks,
+171,1,Ultimate Fields,
+172,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+173,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+173,1,Washrooms,
+173,1,Washrooms,
+173,1,Restaurants,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+174,1,Field Houses,
+174,1,Rugby Fields,
+174,1,Lighted Fields,
+174,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+174,1,Softball,
+174,1,Washrooms,
+175,2,Cricket Pitches,
+175,4,Softball,
+175,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+175,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+175,3,Soccer Fields,
+175,1,Basketball Courts,
+175,1,Wading Pool,
+175,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+175,1,Jogging Trails,
+177,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+177,4,Tennis Courts,
+177,1,Lighted Fields,
+177,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+179,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+179,1,Field Houses,
+179,1,Water/Spray Parks,
+179,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+179,1,Softball,
+179,1,Washrooms,
+180,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+180,1,Field Houses,
+180,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+180,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+180,1,Washrooms,
+181,1,Skateboard Parks,//vancouver.ca/parks-recreation-culture/skateboard-parks.aspx
+181,1,Baseball Diamonds,
+181,1,Field Houses,
+181,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+181,4,Soccer Fields,
+181,2,Softball,
+181,4,Tennis Courts,
+181,1,Basketball Courts,
+181,1,Running Tracks,
+181,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+181,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+181,1,Washrooms,
+182,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+182,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+183,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+184,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+184,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+184,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+184,1,Ultimate Fields,
+185,3,Tennis Courts,
+185,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+185,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+186,1,Baseball Diamonds,
+186,1,Cricket Pitches,
+186,2,Field Houses,
+186,1,Lacrosse Boxes,
+186,1,Lighted Fields,
+186,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+186,4,Soccer Fields,
+186,2,Softball,
+186,4,Tennis Courts,
+186,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+186,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+186,1,Running Tracks,
+186,1,Ball Hockey,
+186,1,Washrooms,
+186,1,Field Hockey,
+186,1,Ultimate Fields,
+187,1,Community Halls,
+187,1,Field Houses,
+187,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+187,2,Soccer Fields,
+187,4,Tennis Courts,
+187,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+187,1,Washrooms,
+188,1,Field Houses,
+188,1,Football Fields,
+188,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+188,1,Soccer Fields,
+188,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+188,1,Wading Pool,
+188,1,Softball,
+188,1,Washrooms,
+189,1,Community Centres,//vancouver.ca/parks-recreation-culture/community-and-cultural-centres.aspx
+189,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+189,1,Rinks,//vancouver.ca/parks-recreation-culture/ice-rinks.aspx
+189,1,Soccer Fields,
+189,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+189,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+191,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+191,4,Softball,
+191,1,Field Houses,
+191,2,Soccer Fields,
+191,1,Wading Pool,
+191,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+191,1,Washrooms,
+192,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+192,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+192,1,Soccer Fields,
+193,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+194,1,Field Houses,
+194,2,Rugby Fields,
+194,4,Softball,
+194,1,Football Fields,
+194,2,Baseball Diamonds,
+194,1,Soccer Fields,
+194,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+194,1,Washrooms,
+195,2,Tennis Courts,
+195,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+195,1,Basketball Courts,
+195,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+196,3,Baseball Diamonds,
+196,1,Field Houses,
+196,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+196,1,Wading Pool,
+196,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+196,1,Ultimate Fields,
+196,1,Washrooms,
+197,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+197,2,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+197,2,Tennis Courts,
+197,1,Basketball Courts,
+197,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+197,1,Ultimate Fields,
+197,1,Washrooms,
+198,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+198,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+198,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+199,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+200,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+200,1,Washrooms,
+201,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+201,1,Beaches,//vancouver.ca/parks-recreation-culture/beaches.aspx
+201,1,Washrooms,
+202,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+203,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+203,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+203,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+204,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+206,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+206,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+206,1,Golf Courses,//vancouver.ca/parks-recreation-culture/golf-courses-pitch-and-putts-and-driving-ranges.aspx
+206,2,Bowling Greens,
+206,2,Cricket Pitches,
+206,3,Field Houses,
+206,1,Lighted Fields,
+206,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+206,4,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+206,1,Swimming Pools,//vancouver.ca/parks-recreation-culture/swimming-pools.aspx
+206,2,Rugby Fields,
+206,2,Softball,
+206,21,Tennis Courts,
+206,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+206,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+206,1,Water/Spray Parks,
+206,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+206,1,Running Tracks,
+206,3,Jogging Trails,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,1,Washrooms,
+206,4,Restaurants,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+206,1,Washrooms,
+206,7,Food Concessions,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+207,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+207,1,Field Houses,
+207,1,Outdoor Roller Hockey Rinks,
+207,1,Beaches,//vancouver.ca/parks-recreation-culture/beaches.aspx
+207,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+207,1,Food Concessions,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+207,1,Washrooms,
+207,1,Ball Hockey,
+208,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+209,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+212,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+213,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+217,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+217,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+218,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+218,3,Soccer Fields,
+218,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+218,1,Softball,
+218,1,Rugby Fields,
+218,4,Tennis Courts,
+218,1,Washrooms,
+218,1,Beaches,//vancouver.ca/parks-recreation-culture/beaches.aspx
+218,1,Baseball Diamonds,
+218,1,Field Hockey,
+218,1,Ultimate Fields,
+218,1,Washrooms,
+218,1,Food Concessions,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+219,1,Picnic Sites,//vancouver.ca/parks-recreation-culture/picnics.aspx
+219,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+219,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+219,1,Beaches,//vancouver.ca/parks-recreation-culture/beaches.aspx
+219,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+219,1,Food Concessions,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+219,1,Washrooms,
+220,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+220,1,Washrooms,
+220,1,Beaches,//vancouver.ca/parks-recreation-culture/beaches.aspx
+220,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+220,2,Food Concessions,//vancouver.ca/parks-recreation-culture/restaurants-and-snack-bars.aspx
+220,1,Washrooms,
+221,1,Baseball Diamonds,
+221,2,Bowling Greens,
+221,1,Field Houses,
+221,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+221,2,Soccer Fields,
+221,4,Tennis Courts,
+221,2,Basketball Courts,
+221,1,Washrooms,
+221,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+221,1,Wading Pool,
+222,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+222,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+224,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+224,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+225,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+228,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+228,1,Field Hockey,
+228,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+228,1,Jogging Trails,
+228,1,Soccer Fields,
+228,2,Ultimate Fields,
+231,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+233,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+234,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+234,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+235,1,Water/Spray Parks,
+235,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+236,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+236,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+237,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+240,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+240,1,Playgrounds,//vancouver.ca/parks-recreation-culture/summer-playground-programs.aspx
+240,1,Dogs Off-Leash Areas,//vancouver.ca/parks-recreation-culture/dog-off-leash-areas.aspx
+241,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+244,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
+245,2,Soccer Fields,
+245,2,Field Hockey,
+245,1,Ultimate Fields,
+245,1,Washrooms,
+246,1,Parks,//vancouver.ca/parks-recreation-culture.aspx
