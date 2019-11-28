@@ -112,11 +112,18 @@ if __name__ == '__main__':
     # append parks info to data 
     amenities_df = amenities_df.append(parks_df, ignore_index = True, sort=True) 
 
+    
+    amenities_df1 = amenities_df[['amenity','lat', 'lon']].copy()
+    amenities_df1 = amenities_df1.sort_values(by=['amenity'])
+#     print(amenities_df1)
+    
+    
+################### 
     # columns for dataframe containing avg lat and lon of each amenity in range of location
     columns = ['amenity', 'lat', 'lon']
     rows = []
 
-
+    
     # for each amenity type filter by distance and find avg
     for i in amenities_list:
         amenity_df = amenities_df[amenities_df.amenity == i]
@@ -135,17 +142,14 @@ if __name__ == '__main__':
     # calculate average of all averages of each amenity
     airbnb_lat = amenities_latlon['lat'].sum() / len(amenities_list)
     airbnb_lon = amenities_latlon['lon'].sum() / len(amenities_list)
-    
+#####################
+
     # Post Hoc Tukey Analysis ---------------------------------------------------------
-    amenities_latlon['hav_dist'] = [single_pt_haversine(lat, lon) for lat, lon in zip(amenities_latlon.lat, amenities_latlon.lon)]
-#     print("\nhav_dist added:\n", amenities_latlon)
+    amenities_df1['hav_dist'] = [single_pt_haversine(lat, lon) for lat, lon in zip(amenities_df1.lat, amenities_df1.lon)]
+    print("\nhav_dist added:\n", amenities_df1)
     
     # create haversine df
-    hav_dist = amenities_latlon[['amenity','hav_dist']].copy()
-
-    # replicate data to make tukeyhsd work
-    hav_dist = hav_dist.iloc[np.arange(len(hav_dist)).repeat(2)]    
-#     print(hav_dist)
+    hav_dist = amenities_df1[['amenity','hav_dist']].copy()
     
     posthoc = pairwise_tukeyhsd(hav_dist['hav_dist'], hav_dist['amenity'], alpha=0.05)
     print("\nPost Hoc:\n", posthoc)
