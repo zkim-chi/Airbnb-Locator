@@ -24,7 +24,7 @@ vancouver_latlon = [49.290465, -123.086571] # changed coordinate to show all mar
 #richmond_latlon = [49.166662, -123.115976]
 
 #add whichever amenities wanted
-amenities_list = ['night_life', 'casual_food', 'parks', 'theatre', 'fancy_food', 'transportation'] 
+amenities_list = ['night_life', 'quick_food', 'parks', 'theatre', 'sitdown_food', 'transportation'] 
 
 night_life = ['pub', 'bar', 'nightclub'] 
 quick_food = ['cafe', 'fast_food', 'ice_cream', 'marketplace']
@@ -106,12 +106,13 @@ if __name__ == '__main__':
 
     # append parks info to data 
     amenities_df = amenities_df.append(parks_df, ignore_index = True, sort=True) 
+    amenities_df['name'] = amenities_df['name'].astype('str') 
 
     for i in night_life:
         amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'night_life'
 
-    for i in casual_food:
-        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'casual_food'
+    for i in quick_food:
+        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'quick_food'
 
     for i in theatre:
         amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'theatre'
@@ -119,8 +120,8 @@ if __name__ == '__main__':
     for i in transportation:
         amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'transportation'
 
-    for i in fancy_food:
-        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'fancy_food'
+    for i in sitdown_food:
+        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'sitdown_food'
 
 
     # create df of amenities with lat + lon
@@ -138,6 +139,7 @@ if __name__ == '__main__':
 
     # ---------Post Hoc Tukey Analysis ------------
     amenities_df2['hav_dist'] = [single_pt_haversine(lat, lon) for lat, lon in zip(amenities_df2.lat, amenities_df2.lon)]
+
     # print("\nhav_dist added:\n", amenities_df1)
     
     # create haversine df
@@ -147,30 +149,7 @@ if __name__ == '__main__':
     posthoc = pairwise_tukeyhsd(hav_dist['hav_dist'], hav_dist['amenity'], alpha=0.05)
     print("\nPost Hoc:\n", posthoc)
     fig = posthoc.plot_simultaneous()
-    plt.show()
-
-
-    # ---------Amenity Locations----------
-    amenities_list_updated = list(amenities_df2.amenity.unique())
-    columns_ = ['amenity', 'lat', 'lon']
-    rows_ = []
-
-    for i in amenities_list_updated:
-        amenity_df_ = amenities_df2[amenities_df2.amenity == i]
-        amenity_df_.reset_index(drop=True)
-        amenity_df_['dist'] = amenity_df_.apply(lambda x: dist(x, location), axis=1)
-        amenity_df_ = amenity_df_[amenity_df_['dist'] < 10000] # updated this number to include markers on map (original = 4000)
-
-        # average lat lon of the current amenity type using locations within range
-        avg_lat_ = amenity_df_['lat'].sum() / amenity_df_.count()
-        avg_lon_ = amenity_df_['lon'].sum() / amenity_df_.count()
-        row_ = [i, avg_lat_.lat, avg_lon_.lon]
-        rows_.append(row_)
-
-    # create df
-    amenity_avg_loc = pd.DataFrame(rows_, columns = columns_) 
-    # print(amenity_avg_loc)
-
+    #plt.show()
 
     # --------Optimum Airbnb Location-----------        
 
@@ -179,7 +158,7 @@ if __name__ == '__main__':
     rows = []
 
     # for each amenity type filter by distance and find avg
-    for i in amenities_list_updated:
+    for i in amenities_list:
         amenity_df = amenities_df[amenities_df.amenity == i]
         amenity_df.reset_index(drop=True)
         amenity_df['dist'] = amenity_df.apply(lambda x: dist(x, location), axis=1)
@@ -195,8 +174,8 @@ if __name__ == '__main__':
     # print(amenities_latlon)
 
     # calculate average of all averages of each amenity to determine ideal airbnb location
-    airbnb_lat = amenities_latlon['lat'].sum() / len(amenities_list_updated)
-    airbnb_lon = amenities_latlon['lon'].sum() / len(amenities_list_updated)
+    airbnb_lat = amenities_latlon['lat'].sum() / len(amenities_list)
+    airbnb_lon = amenities_latlon['lon'].sum() / len(amenities_list)
 
 
     # ---------Plot Amenities + Airbnb on Map----------
@@ -204,13 +183,27 @@ if __name__ == '__main__':
     # plot updated amenities list
     gmap = gmplot.GoogleMapPlotter(location[0], location[1], 12) 
 
-    for label, row in amenity_avg_loc.iterrows():
-        gmap.marker(row['lat'], row['lon'], title = row['amenity'])
+    for label, row in amenities_latlon.iterrows():
+        gmap.marker(row['lat'], row['lon'], title = 'avglocation: ' + row['amenity'])
         
 
     # plot optimum airbnb/hotel location
     # gmap = gmplot.GoogleMapPlotter(location[0], location[1], 13) 
-    gmap.marker(airbnb_lat, airbnb_lon,'cornflowerblue', title = 'Air BnB')
+    gmap.marker(airbnb_lat, airbnb_lon,'#00ff00', title = 'Air BnB')
+
+    airbnb_location = [airbnb_lat, airbnb_lon]
+    colours = ['blue', 'indigo', 'purple', 'cornflowerblue', 'seablue', 'slate']
+    count = 0
+    for i in amenities_list:
+        amenity_df = amenities_df[amenities_df.amenity == i]
+        amenity_df['dist'] = amenity_df.apply(lambda x: dist(x, airbnb_location), axis=1)
+        amenity_df = amenity_df.sort_values(by='dist', ascending=True)
+        for j in range(0, 5):
+            loc = amenity_df.iloc[j]
+            gmap.marker(loc['lat'], loc['lon'], colours[count] ,  title = loc['amenity'] + ': ' + loc['name'])
+        count = count + 1
+        
+        
 
     # personal api key
     gmap.apikey = "AIzaSyAQmtpvowY8lopKJQ2fJQf5YWzlh6NFeVo"
