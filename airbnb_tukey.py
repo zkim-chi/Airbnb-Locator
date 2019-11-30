@@ -19,13 +19,23 @@ pd.options.mode.chained_assignment = None
 
 #locations
 vancouver_latlon = [49.290465, -123.086571] # changed coordinate to show all markers
-# original coordinate -> vancouver_latlon = [49.254169, -123.135977]
-northvan_latlon = [49.338687, -123.101998]
-burnaby_latlon = [49.240465, -122.968028]
-richmond_latlon = [49.166662, -123.115976]
+#northvan_latlon = [49.338687, -123.101998]
+#burnaby_latlon = [49.240465, -122.968028]
+#richmond_latlon = [49.166662, -123.115976]
 
 #add whichever amenities wanted
-amenities_list = ['pub', 'bar', 'ice_cream', 'parks', 'library'] 
+amenities_list = ['night_life', 'casual_food', 'parks', 'theatre', 'fancy_food', 'transportation'] 
+
+night_life = ['pub', 'bar', 'nightclub'] 
+quick_food = ['cafe', 'fast_food', 'ice_cream', 'marketplace']
+theatre = ['theatre', 'cinema', 'arts_centre']
+transportation = ['car_sharing', 'bicycle_rental', 'bus_station']
+sitdown_food = ['restaurant'] 
+
+
+
+
+
 
 #calc distance between amenity and location  
 def dist(row, location):
@@ -74,19 +84,7 @@ def single_pt_haversine(lat, lng, degrees=True):
 
 if __name__ == '__main__':
 
-    location = sys.argv[1]
-
-    if location == 'vancouver':
-        location = vancouver_latlon
-    elif location == 'northvan':
-        location = northvan_latlon
-    elif location == 'burnaby':
-        location = burnaby_latlon
-    elif location == 'richmond':
-        location = richmond_latlon
-    else:
-        print("Enter a City: vancouver, northvan, burnaby, or richmond")
-        exit()
+    location = vancouver_latlon
 
     json = gzip.open('amenities-vancouver.json.gz', 'rt', encoding='utf-8')
     amenities_df = pd.read_json(json, lines=True)
@@ -109,10 +107,27 @@ if __name__ == '__main__':
     # append parks info to data 
     amenities_df = amenities_df.append(parks_df, ignore_index = True, sort=True) 
 
+    for i in night_life:
+        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'night_life'
+
+    for i in casual_food:
+        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'casual_food'
+
+    for i in theatre:
+        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'theatre'
+
+    for i in transportation:
+        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'transportation'
+
+    for i in fancy_food:
+        amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'fancy_food'
+
 
     # create df of amenities with lat + lon
     amenities_df1 = amenities_df[['amenity','lat', 'lon']].copy()
     amenities_df1 = amenities_df1.sort_values(by=['amenity'])
+
+    
 
     # filter amenities according to anemity list
     new_columns = ['amenity','lat', 'lon']

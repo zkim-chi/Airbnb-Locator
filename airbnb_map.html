@@ -6,16 +6,70 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false&key=AIzaSyAQmtpvowY8lopKJQ2fJQf5YWzlh6NFeVo"></script>
 <script type="text/javascript">
 	function initialize() {
-		var centerlatlng = new google.maps.LatLng(49.254169, -123.135977);
+		var centerlatlng = new google.maps.LatLng(49.290465, -123.086571);
 		var myOptions = {
-			zoom: 13,
+			zoom: 12,
 			center: centerlatlng,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-		var latlng = new google.maps.LatLng(49.269782, -123.123760);
+		var latlng = new google.maps.LatLng(49.274352, -123.098693);
 		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "night_life",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269152, -123.098793);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "casual_food",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.256310, -123.105899);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "parks",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.278051, -123.115341);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "theatre",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.268517, -123.097914);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "fancy_food",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.273942, -123.113486);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "transportation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270054, -123.105021);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
 		var marker = new google.maps.Marker({
 		title: "Air BnB",
 		icon: img,

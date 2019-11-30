@@ -4,8 +4,11 @@ import pandas as pd
 from xml.dom import minidom
 import math
 import sys
-from math import cos, asin, sqrt
+from math import cos, asin, sqrt, radians, sin
 import gmplot 
+
+from statsmodels.stats.multicomp import pairwise_tukeyhsd
+import matplotlib.pyplot as plt
 
 pd.options.mode.chained_assignment = None
 
@@ -13,9 +16,6 @@ pd.options.mode.chained_assignment = None
 
 #locations
 vancouver_latlon = [49.254169, -123.135977]
-northvan_latlon = [49.338687, -123.101998]
-burnaby_latlon = [49.240465, -122.968028]
-richmond_latlon = [49.166662, -123.115976]
 
 #add whichever amenities wanted
 amenities_list = ['cafe', 'pub', 'bar', 'ice_cream', 'park']
@@ -125,6 +125,11 @@ if __name__ == '__main__':
 	# personal api key
 	gmap.apikey = "AIzaSyAQmtpvowY8lopKJQ2fJQf5YWzlh6NFeVo"
 	gmap.draw( "airbnb_map.html" ) 
+
+	re = amenities_df[amenities_df.amenity == 'pub']
+
+	plt.scatter(re['lat'], re['lon']) 
+	plt.show()
 
 
 
