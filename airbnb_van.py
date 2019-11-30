@@ -17,13 +17,10 @@ import matplotlib.pyplot as plt
 
 pd.options.mode.chained_assignment = None
 
-#locations
+# vancouver 
 vancouver_latlon = [49.290465, -123.086571] # changed coordinate to show all markers
-#northvan_latlon = [49.338687, -123.101998]
-#burnaby_latlon = [49.240465, -122.968028]
-#richmond_latlon = [49.166662, -123.115976]
 
-#add whichever amenities wanted
+# add whichever amenities wanted
 amenities_list = ['night_life', 'quick_food', 'parks', 'theatre', 'sitdown_food', 'transportation'] 
 
 night_life = ['pub', 'bar', 'nightclub'] 
@@ -31,11 +28,6 @@ quick_food = ['cafe', 'fast_food', 'ice_cream', 'marketplace']
 theatre = ['theatre', 'cinema', 'arts_centre']
 transportation = ['car_sharing', 'bicycle_rental', 'bus_station']
 sitdown_food = ['restaurant'] 
-
-
-
-
-
 
 #calc distance between amenity and location  
 def dist(row, location):
@@ -108,18 +100,15 @@ if __name__ == '__main__':
     amenities_df = amenities_df.append(parks_df, ignore_index = True, sort=True) 
     amenities_df['name'] = amenities_df['name'].astype('str') 
 
+    # group similar amenities under one heading
     for i in night_life:
         amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'night_life'
-
     for i in quick_food:
         amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'quick_food'
-
     for i in theatre:
         amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'theatre'
-
     for i in transportation:
         amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'transportation'
-
     for i in sitdown_food:
         amenities_df.loc[amenities_df.amenity == i, 'amenity'] = 'sitdown_food'
 
@@ -149,6 +138,8 @@ if __name__ == '__main__':
     posthoc = pairwise_tukeyhsd(hav_dist['hav_dist'], hav_dist['amenity'], alpha=0.05)
     print("\nPost Hoc:\n", posthoc)
     fig = posthoc.plot_simultaneous()
+    plt.savefig('posthoc_simultaneous.png')
+    print("posthoc_simultaneous.png saved")
     #plt.show()
 
     # --------Optimum Airbnb Location-----------        
@@ -164,9 +155,9 @@ if __name__ == '__main__':
         amenity_df['dist'] = amenity_df.apply(lambda x: dist(x, location), axis=1)
         amenity_df = amenity_df[amenity_df['dist'] < 10000]
         # average lat lon of the current amenity type using locations within range
-        avg_lat = amenity_df['lat'].sum() / amenity_df.count()
-        avg_lon = amenity_df['lon'].sum() / amenity_df.count()
-        row = [i, avg_lat.lat, avg_lon.lon]
+        avg_lat = amenity_df['lat'].sum() / amenity_df.count().lat
+        avg_lon = amenity_df['lon'].sum() / amenity_df.count().lat
+        row = [i, avg_lat, avg_lon]
         rows.append(row)
 
     # create df
@@ -183,14 +174,15 @@ if __name__ == '__main__':
     # plot updated amenities list
     gmap = gmplot.GoogleMapPlotter(location[0], location[1], 12) 
 
+    # plot mean of each amenity 
     for label, row in amenities_latlon.iterrows():
         gmap.marker(row['lat'], row['lon'], title = 'avglocation: ' + row['amenity'])
         
-
     # plot optimum airbnb/hotel location
     # gmap = gmplot.GoogleMapPlotter(location[0], location[1], 13) 
     gmap.marker(airbnb_lat, airbnb_lon,'#00ff00', title = 'Air BnB')
 
+    # plot locations of eachamenity closest to optimal airbnb location
     airbnb_location = [airbnb_lat, airbnb_lon]
     colours = ['blue', 'indigo', 'purple', 'cornflowerblue', 'seablue', 'slate']
     count = 0
@@ -198,13 +190,11 @@ if __name__ == '__main__':
         amenity_df = amenities_df[amenities_df.amenity == i]
         amenity_df['dist'] = amenity_df.apply(lambda x: dist(x, airbnb_location), axis=1)
         amenity_df = amenity_df.sort_values(by='dist', ascending=True)
-        for j in range(0, 5):
+        for j in range(0, 10):
             loc = amenity_df.iloc[j]
             gmap.marker(loc['lat'], loc['lon'], colours[count] ,  title = loc['amenity'] + ': ' + loc['name'])
         count = count + 1
         
-        
-
     # personal api key
     gmap.apikey = "AIzaSyAQmtpvowY8lopKJQ2fJQf5YWzlh6NFeVo"
     gmap.draw( "airbnb_map.html" ) 
