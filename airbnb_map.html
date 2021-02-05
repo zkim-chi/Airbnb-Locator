@@ -6,18 +6,612 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false&key=AIzaSyAQmtpvowY8lopKJQ2fJQf5YWzlh6NFeVo"></script>
 <script type="text/javascript">
 	function initialize() {
-		var centerlatlng = new google.maps.LatLng(49.254169, -123.135977);
+		var centerlatlng = new google.maps.LatLng(49.290465, -123.086571);
 		var myOptions = {
-			zoom: 13,
+			zoom: 12,
 			center: centerlatlng,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-		var latlng = new google.maps.LatLng(49.269782, -123.123760);
+		var latlng = new google.maps.LatLng(49.274352, -123.098693);
 		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
 		var marker = new google.maps.Marker({
+		title: "avglocation: night_life",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269152, -123.098793);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "avglocation: quick_food",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.256310, -123.105899);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "avglocation: parks",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.278051, -123.115341);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "avglocation: theatre",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.268517, -123.097914);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "avglocation: sitdown_food",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.273942, -123.113486);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "avglocation: transportation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270054, -123.105021);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/00ff00.png');
+		var marker = new google.maps.Marker({
 		title: "Air BnB",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270573, -123.106382);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: Craft Restaurant & Bar",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269437, -123.103525);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: Brewhall",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.268662, -123.104511);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: Faculty Brewing",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.271755, -123.106067);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: Tap & Barrel",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.267272, -123.104237);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: Electric Bicycle Brewing",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.267252, -123.103395);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: R & B Ale & Pizza House",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.271497, -123.100641);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: Dubh Linn Gate",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.268329, -123.100376);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: The Narrow Lounge",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.267356, -123.111047);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: Big Rock Urban Eatery",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.265784, -123.100589);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "night_life: Brassneck Tasting Room",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270396, -123.105986);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Subway",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269686, -123.106356);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: The Bubble Tea Shop",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270063, -123.103495);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Boba Essence",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269462, -123.106373);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Blenz Coffee",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269906, -123.103099);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Mario's Gelato",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270056, -123.103038);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Amato Gelato & Cafè",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269397, -123.102958);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Starbucks",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.268572, -123.104526);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Argo Cafe",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269044, -123.102954);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Glory Juice",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.271436, -123.106835);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/4B0082.png');
+		var marker = new google.maps.Marker({
+		title: "quick_food: Terra Breads",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270869, -123.110533);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Hinge Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.272210, -123.110791);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Habitat Island",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.274415, -123.102924);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Creekside Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.273946, -123.099212);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Thornton Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.264334, -123.108174);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Jonathan Rogers Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.273253, -123.113900);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Coopers' Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.263965, -123.095837);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Guelph Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.261580, -123.107238);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Major Matthews Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.278923, -123.105500);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Andy Livingstone Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.275015, -123.093116);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/800080.png');
+		var marker = new google.maps.Marker({
+		title: "parks: Trillium Park",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270136, -123.108735);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: BMO Theatre Centre",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.268994, -123.098827);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: Open Studios Event Space",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.266726, -123.096765);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: Aurora Digitalis",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.266698, -123.096711);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: Hfour",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.263202, -123.108141);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: African Arts & Drums",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.280504, -123.106872);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: Cineplex Odeon International Village Cinemas",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.278775, -123.114684);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: The Post at 750",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.280313, -123.113161);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: Queen Elizabeth Theatre",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.280691, -123.112557);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: Vancouver Playhouse",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.281101, -123.098370);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "theatre: The Rickshaw",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269374, -123.104081);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: Hon's Wonton House",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269447, -123.106160);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: Pho Quynh Express",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269086, -123.104517);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: Manna Sushi",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269658, -123.102906);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: Tractor",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.271405, -123.105957);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: Gusto",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269480, -123.107259);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: Bao Down",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269500, -123.107702);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: The Flying Pig",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269523, -123.108216);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: WildTale Olympic Village",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269550, -123.109143);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: Nook",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.268124, -123.101703);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/eablue.png');
+		var marker = new google.maps.Marker({
+		title: "sitdown_food: Nuba",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270212, -123.105159);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: 1st & Ontario",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269538, -123.103517);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: nan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270331, -123.102734);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: Quebec & 1st",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.269754, -123.102456);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: nan",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.271831, -123.104313);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: Ontario & Seawall",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.268284, -123.102544);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: 3rd & Quebec",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270209, -123.109132);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: 1st & Columbia",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.270055, -123.100241);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: 1st & Main",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.266710, -123.104820);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: Ontario & 5th",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.272124, -123.100672);
+		var img = new google.maps.MarkerImage('/opt/anaconda3/lib/python3.7/site-packages/gmplot/markers/late.png');
+		var marker = new google.maps.Marker({
+		title: "transportation: nan",
 		icon: img,
 		position: latlng
 		});
